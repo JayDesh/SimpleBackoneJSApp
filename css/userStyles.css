@@ -1,0 +1,45 @@
+
+.container{
+  background: hsla(160, 19%, 48%, 0.42);
+  border: 1px solid;
+}
+
+h1{
+  text-align: center;
+}
+
+h1,h2{
+  padding: 2%;
+  background: rgba(63, 124, 121, 0.71); /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#007eff, #18e328); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#007eff, #18e328); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#007eff, #18e328); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#007eff, #18e328); /* Standard syntax */
+  text-align: center;
+}
+
+.btn{
+  display: block;
+  margin: 50px;
+  position: relative;
+  left: 35%;
+}
+
+form{
+    margin: 3%;
+}
+
+form div{
+  width = 90%;
+}
+
+label {
+  width: 30%;
+}
+
+@media screen and (min-width: 720px) {
+  form div{
+    width: 45%;
+    display: inline-block;
+  }
+}
